@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/student.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "laptop image with code on screen, coffee,notebook and plant on desk";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Fellowship",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is my fellowship Program where i do some coding task and learning in Tech industry",
+    url: "https://github.com/laibarif/Coding-ACM-Fellowship",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Landing Page",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "I create the Landing page for scrent agency",
+    url: "https://github.com/laibarif/TechnoHackIntenship/commit/bc5081f2ce9a8280b30201fad57736f29e844963",
   },
   {
-    title: "My Resume Site",
+    title: "Personal Portofolio",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is my Portfolio. I create it in html, css, javascript",
+    url: "https://github.com/laibarif/TechnoHackIntenship/commit/23560c63c5a4f09ea3bfc84391671f78c12216d7",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Facebook Clone",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A social media platform that work like a facebook. People can interact with each other add post, story and chat with each other",
+    url: "https://github.com/laibarif/Facebook-Clone",
   },
 ];
 
