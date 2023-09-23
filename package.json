@@ -5,8 +5,8 @@
   "source": "src/index.html",
   "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "start": "node api.js && parcel",
+    "build": "node api.js && parcel build",
     "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
